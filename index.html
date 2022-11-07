@@ -416,24 +416,23 @@
                         </li>
                     </ul>
             </div>
-            <div class="f-flex-div">
-                    <!--Форма подписки-->
-                    <form name="subscribe" autocomplete="on" novalidate>
-                        <p class="subscribe-title">Підпишіться на розсилку</p>
-                        <div class="subscribe-div">
-                        <label for="user_email">
-                            <span class="visually-hidden">Email</span>
-                            <input class="subscribe-input" type="email" name="email" id="user_email" placeholder="E-mail"/>
-                        </label>
-                        <button class="subscribe-button" type="submit">
-                            Підписатися
-                            <svg class="telegram-subscribe-icon"  width="24px" height="24px">
-                                <use href="./img/icons.svg#telegram-subscribe"></use>
-                            </svg>
-                        </button>
-                        </div>
-                    </form>
-            </div>  
+            
+            <!--Форма подписки-->
+            <form class="subscribe-form" name="subscribe" autocomplete="on" novalidate>
+                <p class="subscribe-title">Підпишіться на розсилку</p>
+                <div class="subscribe-div">
+                <label for="user_email">
+                    <span class="visually-hidden">Email</span>
+                    <input class="subscribe-input" type="email" name="email" id="user_email" placeholder="E-mail"/>
+                </label>
+                <button class="subscribe-button" type="submit">
+                    Підписатися
+                    <svg class="telegram-subscribe-icon"  width="24px" height="24px">
+                        <use href="./img/icons.svg#telegram-subscribe"></use>
+                    </svg>
+                </button>
+                </div>
+            </form>      
         </div>
     </footer>
    <!--Модальное окно-->  
