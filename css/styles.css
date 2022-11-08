@@ -570,14 +570,11 @@ img {
 .f-flex {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
-.f-flex-div {
+.f-flex-div:first-child {
     margin-right: 70px;
-}
-
-.f-flex-div:last-child {
-    margin-right: 0px;
 }
 
 .adres-footer {
